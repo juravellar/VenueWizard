@@ -1,4 +1,4 @@
-# MavenVenueWizard
+# VenueWizard
 Esse projeto auxilia na [CRUD](https://developer.mozilla.org/pt-BR/docs/Glossary/CRUD)  de lugares; a estrutura foi gerada através da utilização do Maven e do JDK17.
 
 # Começando
