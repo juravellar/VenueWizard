@@ -5,7 +5,6 @@ import static org.junit.Assert.assertTrue;
 
 import java.util.Optional;
 
-import com.avellar.venuewizard.api.entities.Slug;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -33,15 +32,27 @@ public class PlaceServiceTest {
 
     @Before
     public void setUp() throws Exception {
-        BDDMockito.given(this.placeRepository.findBySlug(Mockito.anyString())).willReturn(Optional.of(new Place()));
+        BDDMockito.given(this.placeRepository.findByCity(Mockito.anyString())).willReturn(new Place());
+        BDDMockito.given(this.placeRepository.save(Mockito.any(Place.class))).willReturn(new Place());
+
+        BDDMockito.given(this.placeRepository.findByState(Mockito.anyString())).willReturn(Optional.of(new Place()));
         BDDMockito.given(this.placeRepository.save(Mockito.any(Place.class))).willReturn(new Place());
     }
 
     @Test
-    public void testBuscarPlacePorSlug() {
-        Optional<Place> place = this.placeService.buscarPorSlug(testBuscarPlacePorSlug());
+    public String testBuscarPlacePorCity() {
+        Optional<Place> place = this.placeService.buscarPorCity(testBuscarPlacePorCity());
 
         assertTrue(place.isPresent());
+        return null;
+    }
+
+    @Test
+    public String testBuscarPlacePorState() {
+        Optional<Place> place = this.placeService.buscarPorState(testBuscarPlacePorState());
+
+        assertTrue(place.isPresent());
+        return null;
     }
 
     @Test

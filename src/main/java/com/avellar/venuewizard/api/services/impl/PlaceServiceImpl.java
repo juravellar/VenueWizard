@@ -27,7 +27,7 @@ public class PlaceServiceImpl implements PlaceService {
     @Override
     public Optional<Place> buscarPorState(String state) {
         log.info("Buscando um local para a Estado {}", state);
-        return Optional.ofNullable(placeRepository.findByState(state));
+        return placeRepository.findByState(state);
     }
 
     @Override

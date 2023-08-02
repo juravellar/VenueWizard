@@ -11,7 +11,7 @@ import java.util.Optional;
 public interface PlaceRepository extends JpaRepository<Place, Long> {
 
     @Transactional(readOnly = true)
-    Optional<Place> findByCity(String city);
+    Place findByCity(String city);
     @Transactional(readOnly = true)
     Optional<Place> findByState(String state);
 
