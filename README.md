@@ -5,7 +5,7 @@ Esse projeto auxilia na [CRUD](https://developer.mozilla.org/pt-BR/docs/Glossary
 
  Para executar o projeto, será necessário instalar os seguintes programas:
  
--[Maven 3.5.3: Necessário para realizar o build do projeto Java](https://maven.apache.org/index.html)
+-[Maven 4.0.0: Necessário para realizar o build do projeto Java](https://maven.apache.org/index.html)
 
 -[JDK 17: Necessário para executar o projeto Java](https://www.oracle.com/java/technologies/downloads/#java17)
 
