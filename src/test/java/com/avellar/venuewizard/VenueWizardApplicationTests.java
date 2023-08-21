@@ -1,4 +1,4 @@
-package com.avellar.venuewizard.api;
+package com.avellar.venuewizard;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -9,10 +9,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @ActiveProfiles("test")
-class VenueWizardApplicationTests {
+public class VenueWizardApplicationTests {
 
 	@Test
-	void contextLoads() {
+	public void contextLoads() {
 	}
 
 }

@@ -1,11 +1,9 @@
-package com.avellar.venuewizard.api;
+package com.avellar.venuewizard;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cache.annotation.EnableCaching;
 
 @SpringBootApplication
-@EnableCaching
 public class VenueWizardApplication {
 
 	public static void main(String[] args) {
