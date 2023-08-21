@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align="center">
   VenueWizard
 </h1>
@@ -8,6 +9,20 @@
  <img src="https://img.shields.io/static/v1?label=Tipo&message=
 Desafio&color=66cdaa&labelColor=006400" alt="Desafio" />
 </p>
+=======
+# VenueWizard
+Esse projeto auxilia na [CRUD](https://developer.mozilla.org/pt-BR/docs/Glossary/CRUD)  de lugares; a estrutura foi gerada através da utilização do Maven e do JDK17.
+
+# Começando
+
+ Para executar o projeto, será necessário instalar os seguintes programas:
+ 
+-[Maven 4.0.0: Necessário para realizar o build do projeto Java](https://maven.apache.org/index.html)
+
+-[JDK 17: Necessário para executar o projeto Java](https://www.oracle.com/java/technologies/downloads/#java17)
+
+-[Eclipse: Para desenvolvimento do projeto](https://www.eclipse.org/downloads/packages/release/oxygen/3a/eclipse-ide-java-ee-developers)
+>>>>>>> 2a13633451123ba331316612d178058eeb858a42
 
 A API [desse desafio](https://github.com/RocketBus/quero-ser-clickbus/tree/master/testes/backend-developer) em backend auxilia 
 na [CRUD](https://developer.mozilla.org/pt-BR/docs/Glossary/CRUD) 
