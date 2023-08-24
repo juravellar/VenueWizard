@@ -1,13 +1,11 @@
-
+ 
 <h1 align="center">
   VenueWizard
 </h1>
 
 <p align="center">
- <img src="https://img.shields.io/static/v1?label=GitHub&message
-=@juravellar&color=66cdaa&labelColor=006400" alt="@juravellar" />
- <img src="https://img.shields.io/static/v1?label=Tipo&message=
-Desafio&color=66cdaa&labelColor=006400" alt="Desafio" />
+ <img src="https://img.shields.io/static/v1?label=GitHub&message=@juravellar&color=66cdaa&labelColor=006400" alt="@juravellar" />
+ <img src="https://img.shields.io/static/v1?label=Tipo&message=Desafio&color=66cdaa&labelColor=006400" alt="Desafio" />
 </p>
 
 # VenueWizard
